@@ -10,5 +10,6 @@ public class Scan {
         System.out.print("O Numero Informado foi:");
         System.out.print(numero);
 
+        entrada.close();
     }
 }

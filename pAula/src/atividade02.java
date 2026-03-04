@@ -9,7 +9,7 @@ public class atividade02 {
 
         System.out.print("Sua idade eh? " + Idade);
 
-
+        entrada.close();
     };
 
 };
