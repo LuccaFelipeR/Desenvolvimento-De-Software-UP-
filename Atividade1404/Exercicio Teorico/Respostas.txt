@@ -1,0 +1,60 @@
+1. Encapsulamento em Sistemas Reais
+
+Não é uma boa ideia deixar os atributos públicos, porque qualquer parte do sistema pode alterar os valores diretamente.
+Isso pode causar problemas como saldo negativo ou alterações erradas nos dados. 
+O encapsulamento resolve isso deixando os atributos como private e criando métodos para controlar o acesso.
+
+Exemplo:
+Um método sacar só permite retirar dinheiro se tiver saldo suficiente. Isso garante mais segurança e controle no sistema.
+
+====================
+
+2. Classes e Objetos no Contexto Corporativo
+
+Ter apenas uma classe com tudo dentro não segue os princípios da POO.
+Isso acontece porque mistura várias responsabilidades em um único lugar.
+
+Os problemas disso são:
+código difícil de entender
+difícil manutenção
+ifícil de expandir
+
+O correto seria dividir em várias classes, como:
+Cliente, Produto, Pedido e Pagamento.
+Assim o sistema fica mais organizado e fácil de trabalhar.
+
+=====================
+
+
+3. Métodos e Regras de Negócio
+
+A regra não deve ficar no main porque o main serve só para iniciar o programa.
+As regras devem ficar em métodos, para organizar melhor o código.
+Essa regra deveria ficar na classe Pedido.
+
+Isso ajuda porque:
+deixa o código organizado
+facilita manutenção
+permite reutilizar o código
+
+
+
+=======================
+
+4. Uso de ArrayList em Sistemas Dinâmicos
+
+Usar array pode ser ruim porque ele tem um certo tamanho fixo, em sistemas reais a quantidade de dados pode-se variar4.
+
+O arraylist acaba sendo melhor porque, cresce automaticamente e é muito mais flexivel;
+Um exempl0o certo é um sistema de pedidos, onde a quantidade de pedidos muda o tempo todo.
+
+
+
+========================
+
+5. Uso de Scanner em sistemas profissionais.
+
+Usar Scanner em varias classes seria considerado uma má pratica, isso porque isso mistura a entrada de dados com a logica do sistema.
+Bom alguns dos seus problemas geralmente são, dificultar os testes, dificultar a manutenção, deixa o codigo bagunçado.
+
+O ideal é usar o scanner apenas no main e passar os valores para as demais classes. isso acaba centralizando a função e deixando mais organizado.
